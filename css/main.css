@@ -1,0 +1,52 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  padding-top: 3.125em;
+  padding-bottom: 1.875em;
+}
+.full {
+  background: url('../img/Dog_walker.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top {
+  height: 6.250em;
+}
+.navbar-header {
+  padding-left: 6.250em;
+}
+.btn-phone {
+  position: absolute;
+  top: 0.625em;
+  right: 1.875em;
+}
+.page-titles {
+  color: deepskyblue;
+  position: absolute;
+  z-index: 12;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.page-titles h1 {
+  font-size: 10em;
+}
+/*=================== Footer ===============================*/
+
+
+
+
+
+
+
+
+
+
+
