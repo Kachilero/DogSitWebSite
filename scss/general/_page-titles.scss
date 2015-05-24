@@ -1,13 +1,28 @@
-.page-titles {
-  color: deepskyblue;
-  position: absolute;
-  z-index: 12;
-  top: 70%;
-  left: 0;
-  width: 100%;
-  text-align: center;
+.page-titles-home  {
 
   h1 {
     font-size: 10em;
+    color: deepskyblue;
+    position: absolute;
+    z-index: 12;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.page-titles  {
+  height: 100vh;
+
+  h1 {
+    font-size: 10em;
+    color: deepskyblue;
+    position: absolute;
+    z-index: 12;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    text-align: center;
   }
 }

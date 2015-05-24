@@ -3,5 +3,15 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 
   .navbar-header {
     padding-left: 6.250em;
+
+    .navbar-brand {
+      padding-top: 10%;
+      font-size: 3.125em;
+    }
+  }
+
+  #navbar {
+    padding-top: 0.313em;
+    font-size: 1.750em;
   }
 }

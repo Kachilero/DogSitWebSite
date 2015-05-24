@@ -15,8 +15,15 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   height: 6.250em; }
   nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header {
     padding-left: 6.250em; }
+    nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand {
+      padding-top: 10%;
+      font-size: 3.125em; }
+  nav.navbar.navbar-inverse.navbar-fixed-top #navbar {
+    padding-top: 0.313em;
+    font-size: 1.750em; }
 
-.page-titles {
+.page-titles-home h1 {
+  font-size: 10em;
   color: deepskyblue;
   position: absolute;
   z-index: 12;
@@ -24,15 +31,60 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   left: 0;
   width: 100%;
   text-align: center; }
-  .page-titles h1 {
-    font-size: 10em; }
 
-.full {
-  background: url("../img/Dog_walker.jpg") no-repeat center center fixed;
+.page-titles {
+  height: 100vh; }
+  .page-titles h1 {
+    font-size: 10em;
+    color: deepskyblue;
+    position: absolute;
+    z-index: 12;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+
+.full .full-about {
+  background: url("../img/Tasmanian_Devil_markings.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.full .full-boarding {
+  background: url("../img/Beagle_puppy_sitting_on_grass.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.full .full-contact {
+  background: url("../img/bw.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.full .full-location {
+  background: url("../img/Clumber_Spaniel_on_Grass.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
+.info h2 {
+  font-size: 3.125em;
+  text-align: center; }
+.info img {
+  height: 500px;
+  width: 500px; }
+.info .info-info {
+  padding-top: 5%; }
+
 footer {
   margin: 50px; }
+
+.dogs {
+  height: 400px;
+  width: 100%;
+  overflow: hidden; }
+  .dogs img {
+    height: 100%;
+    width: 400px; }
