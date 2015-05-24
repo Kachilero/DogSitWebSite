@@ -1,10 +1,10 @@
 .dogs {
-  height: 400px;
-  width: 100%;
-  overflow: hidden;
+  height: 250px;
 
-  img {
-    height: 100%;
-    width: 400px;
+  .no-pad {
+    padding: 0;
+  }
+  .img-responsive {
+
   }
 }
