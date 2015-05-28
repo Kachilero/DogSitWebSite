@@ -79,9 +79,18 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   padding-top: 5%; }
 
 footer {
-  margin: 50px; }
+  margin: 50px;
+  background-color: cornflowerblue; }
 
 .dogs {
   height: 250px; }
   .dogs .no-pad {
     padding: 0; }
+
+.contact-form {
+  clear: both; }
+
+.testimonials {
+  clear: both; }
+  .testimonials img {
+    max-width: 80%; }
