@@ -15,9 +15,25 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   height: 6.250em; }
   nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header {
     padding-left: 6.250em; }
-    nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand {
-      padding-top: 10%;
-      font-size: 3.125em; }
+    nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold {
+      height: 6em;
+      position: absolute;
+      left: 40px;
+      top: 40px; }
+      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .house {
+        background: url(../img/logo/House.png) no-repeat;
+        position: absolute;
+        left: -16px;
+        top: -32px;
+        width: 72px;
+        height: 76px; }
+      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .tail {
+        background: url(../img/logo/Tail.png) no-repeat;
+        position: absolute;
+        left: 12px;
+        top: -3px;
+        width: 30px;
+        height: 36px; }
   nav.navbar.navbar-inverse.navbar-fixed-top #navbar {
     padding-top: 0.313em;
     font-size: 1.750em; }
@@ -63,7 +79,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   -o-background-size: cover;
   background-size: cover; }
 .full .full-location {
-  background: url("../img/Clumber_Spaniel_on_Grass.jpg") no-repeat center center fixed;
+  background: url("../img/Running_in_the_grass_yardJPG.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -83,9 +99,14 @@ footer {
   background-color: cornflowerblue; }
 
 .dogs {
-  height: 250px; }
+  height: 250px;
+  background-color: white; }
   .dogs .no-pad {
     padding: 0; }
+  .dogs .img-responsive {
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 16.66667%; }
 
 .contact-form {
   clear: both; }
@@ -94,3 +115,11 @@ footer {
   clear: both; }
   .testimonials img {
     max-width: 80%; }
+
+.locationCards .row .infoCard {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+.locationCards .row #mapped {
+  height: 600px;
+  margin: 0;
+  padding: 0; }

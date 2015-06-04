@@ -40,7 +40,12 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="../index.html">Dog Sitting</a>
+    <a class="navbar-brand" href="../index.html">
+      <div class="logoHold">
+        <div class="house"></div>
+        <div class="tail"></div>
+      </div>
+    </a>
   </div>
   <div id="navbar" class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
@@ -70,41 +75,95 @@
 <div class="page-titles full-location"><h1>Location</h1></div>
 <!-- /page-titles -->
 
-<div class="container">
-  <!-- Example row of columns -->
+<!-- locationCards -->
+<div class="container locationCards">
   <div class="row">
-    <div class="col-md-4">
-      <h2>Heading</h2>
-
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-        sed odio dui. </p>
-
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    <div class="col-md-6 col-sm-12">
+      <div class="col-sm-6 infoCard">
+        <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+        wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+        <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+        wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+        <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+          wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+      </div>
+      <div class="col-sm-6 infoCard">
+        <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+        wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+        <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+        wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+        <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+          wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-        sed odio dui. </p>
-
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta
-        felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-        massa justo sit amet risus.</p>
-
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    <div class="col-md-6 col-sm-12">
+      <div id="mapped"></div>
     </div>
   </div>
-
-  <hr>
 </div>
-<!-- /container --><!-- footer -->
+<!-- /locationCards -->
+
+<!-- row.dogs -->
+<div class="row dogs">
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 no-pad">
+    <img src="../img/thumbs/BeagleThumb.jpg" alt="Beagle" class="img-responsive thumbnail"/>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 no-pad">
+    <img src="../img/thumbs/bwThumb.jpg" alt="Black and white" class="img-responsive thumbnail"/>
+  </div>
+  <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 no-pad">
+    <img src="../img/thumbs/ClumberThumb.jpg" alt="Clumber" class="img-responsive thumbnail"/>
+  </div>
+  <div class="col-lg-2 col-md-3 hidden-sm hidden-xs no-pad">
+    <img src="../img/thumbs/WalkerThumb.jpg" alt="Dog walker" class="img-responsive thumbnail"/>
+  </div>
+  <div class="col-lg-2 hidden-md hidden-sm hidden-xs no-pad">
+    <img src="../img/thumbs/LucyThumb.jpg" alt="Lucy in grass" class="img-responsive thumbnail"/>
+  </div>
+  <div class="col-lg-2 hidden-md hidden-sm hidden-xs no-pad">
+    <img src="../img/thumbs/RunningThumb.jpg" alt="Running in the grass" class="img-responsive thumbnail"/>
+  </div>
+</div>
+<!-- /row.dogs-->
+
+<!-- testimonials -->
+<div class="container testimonials">
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="../img/Beagle_puppy_sitting_on_grass.jpg" alt="ONe" class="img-circle"/>
+        <div class="caption">
+          <h3>Thumbnail One</h3>
+          <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+            wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="../img/bw.jpg" alt="Twp" class="img-circle"/>
+        <div class="caption">
+          <h3>Thumbnail Two</h3>
+          <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+            wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bedwet nose small animals stay play.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="../img/Dog_walker.jpg" alt="Three" class="img-circle"/>
+        <div class="caption">
+          <h3>Thumbnail Three</h3>
+          <p>Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed
+            wet nose small animals stay play. Puppy kitty ipsum dolor sit good dog bird food. Tuxedo ID tag carrier kibble aquatic lazy cat nest mouse bed wet nose small animals stay play.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /testimonials -->
+
+<!-- footer -->
 <footer>
   <div class="row">
     <div class="col-lg-3 col-sm-12">
@@ -142,6 +201,8 @@
 <script src="../js/vendor/jquery-1.11.2.min.js"></script>
 
 <script src="../js/vendor/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3"></script>
 
 <script src="../js/main.js"></script>
 

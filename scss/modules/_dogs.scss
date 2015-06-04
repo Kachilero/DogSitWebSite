@@ -1,10 +1,13 @@
 .dogs {
   height: 250px;
+  background-color: white;
 
   .no-pad {
     padding: 0;
   }
   .img-responsive {
-
+    min-height: 250px;
+    max-height: 250px;
+    min-width: (100%/6);
   }
 }
