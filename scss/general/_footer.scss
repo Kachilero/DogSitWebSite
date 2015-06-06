@@ -1,10 +1,42 @@
 footer {
-  margin: 50px;
-  background-color: cornflowerblue;
+  background-color: $lightGrey;
+  margin: 0;
+  padding-top: em(25);
 
-  .logo {}
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
-  .col-lg-3 {
+    .logoHold {
+      /*height: em(96);
+      position: absolute;
+      left: em(35);
+      top: em(40);*/
+
+      .house {
+        background: url(../img/logo/House.png) no-repeat;
+        position: absolute;
+        left: em(-16);
+        top: em(-32);
+        width: em(72);
+        height: em(76);
+      }
+      .tail {
+        background: url(../img/logo/Tail.png) no-repeat;
+        position : absolute ;
+        left : em(6);
+        top : em(-12);
+        width : em(30);
+        height : em(36);
+
+        &:hover {
+        }
+      }
+    }
+  }
+
+  .col-lg-4 {
 
     .btn-phone {
       

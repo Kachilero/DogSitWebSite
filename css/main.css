@@ -1,8 +1,8 @@
 /*em calculation mixin*/
 body {
+  background-color: #fbf9f8;
   height: 100%;
-  padding-top: 3.125em;
-  padding-bottom: 1.875em; }
+  padding-top: 3.125em; }
 
 ul {
   list-style-type: none; }
@@ -132,8 +132,32 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   padding: 5%; }
 
 footer {
-  margin: 50px;
-  background-color: cornflowerblue; }
+  background-color: #d7ccc8;
+  margin: 0;
+  padding-top: 1.78571em; }
+  footer .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    footer .logo .logoHold {
+      /*height: em(96);
+      position: absolute;
+      left: em(35);
+      top: em(40);*/ }
+      footer .logo .logoHold .house {
+        background: url(../img/logo/House.png) no-repeat;
+        position: absolute;
+        left: -1.14286em;
+        top: -2.28571em;
+        width: 5.14286em;
+        height: 5.42857em; }
+      footer .logo .logoHold .tail {
+        background: url(../img/logo/Tail.png) no-repeat;
+        position: absolute;
+        left: 0.42857em;
+        top: -0.85714em;
+        width: 2.14286em;
+        height: 2.57143em; }
 
 .dogs {
   height: 250px;
@@ -147,6 +171,18 @@ footer {
 
 .contact-form {
   clear: both; }
+  .contact-form .callToAction {
+    background: #c2a398;
+    border-radius: 15px;
+    padding: 1% 5% 5% 5%;
+    box-shadow: inset 0 5px #b1887c, inset 0 -5px #5d4037, inset 5px 0 #9d6c5d, inset -5px 0 #5d4037;
+    /*2px 2px 2px 1px rgba(0, 0, 0, 0.5);*/
+    /* offset-x | offset-y | blur-radius | spread-radius | color */ }
+    .contact-form .callToAction button {
+      text-shadow: none;
+      background: #ff5252;
+      border-color: #ffb8b8;
+      font-weight: 600; }
 
 .testimonials {
   clear: both; }
