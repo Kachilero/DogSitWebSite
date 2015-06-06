@@ -7,8 +7,20 @@
     z-index: 12;
     top: 70%;
     left: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
+
+    @media screen and(max-width: 730px) {
+      font-size: em(100);
+    }
+
+    @media screen and(max-width: 550px) {
+      font-size: em(72);
+    }
+
+    @media screen and(max-width: 400px) {
+      font-size: em(48);
+    }
   }
 }
 

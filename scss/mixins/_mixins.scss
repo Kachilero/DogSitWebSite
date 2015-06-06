@@ -1,0 +1,25 @@
+
+//How to use: @include prefix(transform, rotate(45deg))
+@mixin prefix($property, $value, $vendors: webkit moz ms o) {
+  @if $vendors {
+    @each $vendor in $vendors {
+      #{'-' + $vendor + '-' + $property}: #{$value};
+    }
+  }
+  #{$property}: #{$value};
+}
+
+/*em calculation mixin*/
+//How to use: font-size: em(16)
+$browser-context: 14; //Default
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
+}
+
+//Colors
+$darkBrown: #5D4037;
+$brown: #795548;
+$lightGrey: #D7CCC8;
+$grey: #B6B6B6;
+$darkGrey: #727272;
+$red: #FF5252;

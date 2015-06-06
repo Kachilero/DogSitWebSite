@@ -5,11 +5,24 @@
     text-align: center;
   }
   img {
-    height: 500px;
     width: 500px;
+    height: 500px;
+    overflow: hidden;
+
+    @media screen and(max-width: 800px) {
+      height: 300px;
+      width: 300px;
+    }
   }
 
+  .info-pic {
+    padding: 5%;
+
+    h2 {
+      padding-bottom: 50px;
+    }
+  }
   .info-info {
-    padding-top: 5%;
+    padding: 5%;
   }
 }

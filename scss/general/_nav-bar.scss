@@ -1,44 +1,74 @@
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  height: 6.250em;
+  height: em(100);
+  margin-right: 0;
+
+  .btn-phone {
+    position: absolute;
+    top: em(20);
+    left: em(100);
+    background-color: $red;
+    border-color: lighten($red, 10);
+    font-weight: 600;
+
+    @media screen and(max-width: 400px) {
+      width: 100vw;
+      left: 0;
+      top: 100px;
+    }
+  }
 
   .navbar-header {
-    padding-left: 6.250em;
+    padding-left: em(100);
+
+    @media screen and(max-width: 400px) {
+      width: 100vw;
+    }
 
     .navbar-brand {
 
       .logoHold {
-        height: 6em;
+        height: em(96);
         position: absolute;
-        left: 40px;
-        top: 40px;
+        left: em(35);
+        top: em(40);
 
         .house {
           background: url(../img/logo/House.png) no-repeat;
           position: absolute;
-          left: -16px;
-          top: -32px;
-          width: 72px;
-          height: 76px;
+          left: em(-16);
+          top: em(-32);
+          width: em(72);
+          height: em(76);
         }
         .tail {
           background: url(../img/logo/Tail.png) no-repeat;
           position : absolute ;
-          left : 12px;
-          top : -3px;
-          width : 30px;
-          height : 36px;
+          left : em(6);
+          top : em(-12);
+          width : em(30);
+          height : em(36);
 
           &:hover {
           }
         }
       }
-
-
     }
   }
 
   #navbar {
     padding-top: 0.313em;
     font-size: 1.750em;
+
+    a {
+      color: #fff;
+    }
+
+    @media screen and(max-width: 767px){
+      background-color: $darkGrey;
+    }
+
+    &.right {
+      float: right !important;
+    }
   }
 }
