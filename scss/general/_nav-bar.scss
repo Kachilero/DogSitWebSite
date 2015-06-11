@@ -1,5 +1,5 @@
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  height: em(100);
+  height: 60px;
   margin-right: 0;
 
   .btn-phone {
@@ -18,37 +18,48 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
   }
 
   .navbar-header {
-    padding-left: em(100);
 
     @media screen and(max-width: 400px) {
       width: 100vw;
     }
 
     .navbar-brand {
+      width: 370px;
+      padding:0;
+      margin: 0;
+
+      @media screen and(max-width: 850px) {
+        width: 280px;
+      }
+
+      @media screen and(max-width: 450px) {
+        width: 55px;
+      }
 
       .logoHold {
-        height: em(96);
-        position: absolute;
-        left: em(35);
-        top: em(40);
+        width: 100%;
 
-        .house {
-          background: url(../img/logo/House.png) no-repeat;
-          position: absolute;
-          left: em(-16);
-          top: em(-32);
-          width: em(72);
-          height: em(76);
+        img {
+          width: 15%;
+          max-height: 50px;
+
+          @media screen and(max-width: 450px) {
+            width: 100%;
+          }
         }
-        .tail {
-          background: url(../img/logo/Tail.png) no-repeat;
-          position : absolute ;
-          left : em(6);
-          top : em(-12);
-          width : em(30);
-          height : em(36);
+        .logoText {
+          width: 85%;
+          float: right;
+          line-height: 0.5;
 
-          &:hover {
+          @media screen and(max-width: 850px) {
+            span {
+              display: none;
+            }
+          }
+
+          @media screen and(max-width: 450px) {
+            display: none;
           }
         }
       }
@@ -59,9 +70,14 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     padding-top: 0.313em;
     font-size: 1.750em;
 
-    a {
-      color: #fff;
+    ul > li {
+      border-right: 1px solid $darkGrey;
+
+      a {
+        color: #fff;
+      }
     }
+
 
     @media screen and(max-width: 767px){
       background-color: $darkGrey;

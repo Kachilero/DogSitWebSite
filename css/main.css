@@ -8,7 +8,7 @@ ul {
   list-style-type: none; }
 
 nav.navbar.navbar-inverse.navbar-fixed-top {
-  height: 7.14286em;
+  height: 60px;
   margin-right: 0; }
   nav.navbar.navbar-inverse.navbar-fixed-top .btn-phone {
     position: absolute;
@@ -22,40 +22,65 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
         width: 100vw;
         left: 0;
         top: 100px; } }
-  nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header {
-    padding-left: 7.14286em; }
-    @media screen and (max-width: 400px) {
-      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header {
-        width: 100vw; } }
+  @media screen and (max-width: 400px) {
+    nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header {
+      width: 100vw; } }
+  nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand {
+    width: 370px;
+    padding: 0;
+    margin: 0; }
+    @media screen and (max-width: 850px) {
+      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand {
+        width: 280px; } }
+    @media screen and (max-width: 450px) {
+      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand {
+        width: 55px; } }
     nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold {
-      height: 6.85714em;
-      position: absolute;
-      left: 2.5em;
-      top: 2.85714em; }
-      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .house {
-        background: url(../img/logo/House.png) no-repeat;
-        position: absolute;
-        left: -1.14286em;
-        top: -2.28571em;
-        width: 5.14286em;
-        height: 5.42857em; }
-      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .tail {
-        background: url(../img/logo/Tail.png) no-repeat;
-        position: absolute;
-        left: 0.42857em;
-        top: -0.85714em;
-        width: 2.14286em;
-        height: 2.57143em; }
+      width: 100%; }
+      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold img {
+        width: 15%;
+        max-height: 50px; }
+        @media screen and (max-width: 450px) {
+          nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold img {
+            width: 100%; } }
+      nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .logoText {
+        width: 85%;
+        float: right;
+        line-height: 0.5; }
+        @media screen and (max-width: 850px) {
+          nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .logoText span {
+            display: none; } }
+        @media screen and (max-width: 450px) {
+          nav.navbar.navbar-inverse.navbar-fixed-top .navbar-header .navbar-brand .logoHold .logoText {
+            display: none; } }
   nav.navbar.navbar-inverse.navbar-fixed-top #navbar {
     padding-top: 0.313em;
     font-size: 1.750em; }
-    nav.navbar.navbar-inverse.navbar-fixed-top #navbar a {
-      color: #fff; }
+    nav.navbar.navbar-inverse.navbar-fixed-top #navbar ul > li {
+      border-right: 1px solid #727272; }
+      nav.navbar.navbar-inverse.navbar-fixed-top #navbar ul > li a {
+        color: #fff; }
     @media screen and (max-width: 767px) {
       nav.navbar.navbar-inverse.navbar-fixed-top #navbar {
         background-color: #727272; } }
     nav.navbar.navbar-inverse.navbar-fixed-top #navbar.right {
       float: right !important; }
+
+.phone {
+  position: absolute;
+  top: 70px;
+  margin-left: 15px;
+  padding: 3px 10px;
+  z-index: 12;
+  text-align: center;
+  background-color: #ff5252;
+  opacity: 0.8;
+  border-radius: 5px;
+  box-shadow: inset 0 5px #b1887c, inset 0 -5px #5d4037, inset 5px 0 #b1887c, inset -5px 0 #5d4037; }
+  .phone span {
+    font-size: 24px;
+    color: #000;
+    opacity: 1; }
 
 .page-titles-home h1 {
   font-size: 10em;
