@@ -1,45 +1,59 @@
+@import "../mixins/mixins";
+
 footer {
   background-color: $lightGrey;
   margin: 0;
   padding-top: em(25);
 
-  .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .first-footer {
 
-    .logoHold {
-      /*height: em(96);
-      position: absolute;
-      left: em(35);
-      top: em(40);*/
+    .logo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
 
-      .house {
-        background: url(../img/logo/House.png) no-repeat;
-        position: absolute;
-        left: em(-16);
-        top: em(-32);
-        width: em(72);
-        height: em(76);
-      }
-      .tail {
-        background: url(../img/logo/Tail.png) no-repeat;
-        position : absolute ;
-        left : em(6);
-        top : em(-12);
-        width : em(30);
-        height : em(36);
-
-        &:hover {
-        }
+      img {
+        width: 100%;
       }
     }
   }
 
-  .col-lg-4 {
+  .second-footer {
+    //this is the links container
+    text-align: center;
 
-    .btn-phone {
-      
+    ul > li > h4 {
+      font-size: 24px;
+    }
+  }
+
+  .third-footer {
+    text-align: center;
+    background: lighten($brown, 30);
+    border-radius: 5px;
+    box-shadow:
+      inset 0 5px lighten($darkBrown, 30),
+      inset 0 -5px $darkBrown,
+      inset 5px 0 lighten($darkBrown, 30),
+      inset -5px 0 $darkBrown;
+
+  }
+
+  .fourth-footer {
+    padding-top: 1%;
+    list-style-type: none;
+    text-align: center;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+    ul > li {
+      display: inline;
+
+      a {
+
+      }
     }
   }
 }
